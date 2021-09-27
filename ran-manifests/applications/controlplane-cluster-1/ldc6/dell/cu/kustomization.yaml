@@ -13,7 +13,3 @@ commonAnnotations:
 # Apps of Apps
 resources:
   - 40-controlplane-cluster-1-ldc6-dell-cu.yaml
-  - 50-controlplane-cluster-1-ldc6-dell-cu-00-pre.yaml
-  - 60-controlplane-cluster-1-ldc6-dell-cu-01-post.yaml
-  - 70-controlplane-cluster-1-ldc6-dell-cu-02-virt.yaml
-  - 80-controlplane-cluster-1-ldc6-dell-cu-02-settings.yaml
