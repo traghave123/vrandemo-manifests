@@ -9,6 +9,3 @@ bases:
 resources:
 
   # - 10-gemini.yaml
-  - 10-controlplane-cluster-1.yaml
-  - 20-controlplane-cluster-1-sriovconfig.yaml
-  - 30-controlplane-cluster-1-ptpconfig.yaml
