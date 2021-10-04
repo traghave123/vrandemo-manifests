@@ -8,7 +8,7 @@ spec:
   nodes:
     - nodeName: vrandemo-du-1
       physicalFunctions:
-        - pciAddress: 0000:6a:00.0
+        - pciAddress: 0000:1c:00.0
           pfDriver: pci-pf-stub
           vfDriver: vfio-pci
           vfAmount: 2
