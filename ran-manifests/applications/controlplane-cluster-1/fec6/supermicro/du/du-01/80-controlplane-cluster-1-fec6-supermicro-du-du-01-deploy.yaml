@@ -12,7 +12,7 @@ spec:
   destination:
     name: ''
     #namespace: ''
-    server: 'https://api.controlplane-cluster-1.vran.dallas.ibm.com:6443'
+    server: 'https://172.27.18.64:6443'
   # Source of the application manifests
   source:
     repoURL: 'https://github.com/traghave123/vrandemo-manifests.git'
