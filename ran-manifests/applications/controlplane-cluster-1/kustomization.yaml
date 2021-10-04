@@ -4,6 +4,7 @@ kind: Kustomization
 
 bases:
   - ./fec6/supermicro/du
+  - ./ldc6/dell/cu
 
 # Apps of Apps
 resources:
