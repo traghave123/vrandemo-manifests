@@ -45,7 +45,7 @@ spec:
         node-role.kubernetes.io/ran-du-fec6-server-profile-du-supermicro00: ""
       containers:
         - name: ani-4g-du1
-          image: "ran-21-kvm.comm.ibm.gsc:5000/olmlocal/hello-openshift:latest"
+          image: "ran-21-kvm.comm.ibm.gsc:5000/olmlocal/ani-4g-du:4.0.4g_132_oran_200"
           imagePullPolicy: IfNotPresent       
           command: ["bash","-c","/opt/ani/helm/entrypoint.sh","while true; do sleep 1000; done"]
           envFrom:
