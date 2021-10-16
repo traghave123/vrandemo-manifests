@@ -129,6 +129,6 @@ spec:
 #          url: >-
 #            http://fedora.c3sl.ufpr.br/linux/releases/33/Cloud/x86_64/images/Fedora-Cloud-Base-33-1.2.x86_64.qcow2
         registry:
-           url:  "docker://ran-21-kvm.comm.ibm.gsc:5000/olmlocal/fedora-cloud-container-disk-demo:latest"
+          url:  "docker://ran-21-kvm.comm.ibm.gsc:5000/olmlocal/fedora-cloud-container-disk-demo:latest"
           certConfigMap: registry-pod2-certs-ldc6-cu
           secretRef: registry-pod2-certs-ldc6-cu
