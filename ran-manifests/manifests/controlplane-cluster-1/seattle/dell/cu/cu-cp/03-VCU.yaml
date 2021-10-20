@@ -5,7 +5,7 @@ metadata:
   labels:
     kubevirt.io/vm: vm-seattle-vcu
   name: vm-seattle-cu-cp
-  namespace: altiostar-4g-cu-seattle
+  namespace: xnf-5g-cu-seattle
 spec:
   running: true
   template:
