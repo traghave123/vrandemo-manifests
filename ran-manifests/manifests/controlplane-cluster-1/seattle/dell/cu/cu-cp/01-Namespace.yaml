@@ -2,13 +2,13 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: altiostar-4g-cu-seattle
+  name: xnf-5g-cu-seattle
 ---
 apiVersion: v1
 kind: Secret
 metadata:
   name: registry-pod2-certs-seattle-cu
-  namespace: altiostar-4g-cu-seattle
+  namespace: xnf-5g-cu-seattle
   labels:
     app: containerized-data-importer
 type: Opaque
