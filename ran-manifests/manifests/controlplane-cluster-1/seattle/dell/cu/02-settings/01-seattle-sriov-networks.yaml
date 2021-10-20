@@ -4,7 +4,7 @@
 apiVersion: sriovnetwork.openshift.io/v1
 kind: SriovNetwork
 metadata:
-  name: seattle-vran-mh
+  name: seattle-vran-mh-cu
   namespace: openshift-sriov-network-operator
 spec:
   resourceName: vran_vfio
@@ -25,7 +25,7 @@ spec:
 apiVersion: sriovnetwork.openshift.io/v1
 kind: SriovNetwork
 metadata:
-  name: seattle-vran-mgmt
+  name: seattle-vran-mgmt-cu
   namespace: openshift-sriov-network-operator
 spec:
   resourceName: vran_vfio
