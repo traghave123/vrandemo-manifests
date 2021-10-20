@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: xnf-5g-du-seattle
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: dp-sa-r
+  namespace: xnf-5g-du-seattle
