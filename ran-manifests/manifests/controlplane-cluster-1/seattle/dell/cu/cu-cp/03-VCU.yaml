@@ -103,11 +103,11 @@ spec:
           pod: {}
   
         - multus:
-            networkName: seattle-vran-mgmt
+            networkName: seattle-vran-mgmt-cu
           name: nic1
   
         - multus:
-            networkName: seattle-vran-mh
+            networkName: seattle-vran-mh-cu
           name: nic2
   
         - multus:
